@@ -3,8 +3,8 @@ from tkinter import filedialog
 
 Window = CTk()
 Window.geometry('380x520')
-Window.minsize(380, 520)
 Window.title('Simple Notes')
+Window.resizable(False, False)
 
 set_default_color_theme('blue')
 

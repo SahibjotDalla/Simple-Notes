@@ -78,7 +78,7 @@ ContainerFrame.pack(pady = 5)
 
 NoteFrame  =  CTkFrame(master = ContainerFrame)
 
-CTkButton(master = NoteFrame, text = '🎨', font = ('Dubai', 10), width = 20, height = 20, command = theme_change).pack(side = 'left', padx = 3, pady = 3)
+CTkButton(master = NoteFrame, text = '🎨', font = ('Dubai', 10), width = 22, height = 22, command = theme_change).pack(side = 'left', padx = 3, pady = 3)
 CTkButton(master = NoteFrame, text = '➕', font = ('Dubai', 8), width = 22, height = 22, command = create_note).pack(side = 'left')
 CTkButton(master = NoteFrame, text = '❌', font = ('Dubai', 8), width = 22, height = 22, command = close_note).pack(side = 'left', padx = 3, pady = 3)
 
@@ -89,7 +89,7 @@ SpaceFrame.pack(side = 'left', padx = 60)
 
 FileFrame = CTkFrame(master = ContainerFrame)
 
-CTkButton(master = FileFrame, text = '💾', font = ('Dubai', 10), width = 20, height = 20, command = save_note).pack(side = 'left', padx = 3, pady = 3)
+CTkButton(master = FileFrame, text = '💾', font = ('Dubai', 10), width = 22, height = 22, command = save_note).pack(side = 'left', padx = 3, pady = 3)
 CTkButton(master = FileFrame, text = '📂', font = ('Dubai', 10), width = 22, height = 22, command = open_note).pack(side = 'left')
 
 FileFrame.pack(side = 'left', padx = 5, pady = 5)
